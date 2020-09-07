@@ -24,7 +24,7 @@ class SplashScreenVC: UIViewController {
         }) { (finished) in
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 SVProgressHUD.dismiss()
-                AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: LoginVC())
+                AppDelegate.standard.window?.rootViewController = LoginVC()
             }
         }
     }

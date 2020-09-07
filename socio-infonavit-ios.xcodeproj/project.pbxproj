@@ -15,6 +15,14 @@
 		B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */; };
 		B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1302506B81E00326E84 /* LoginVC.swift */; };
 		B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C1322506B82900326E84 /* LoginVC.xib */; };
+		B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1352506CBF600326E84 /* APIManager.swift */; };
+		B8F3C1382506CC0400326E84 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1372506CC0400326E84 /* ResponseError.swift */; };
+		B8F3C13A2506CC1000326E84 /* TokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1392506CC1000326E84 /* TokenAdapter.swift */; };
+		B8F3C13C2506CC2700326E84 /* MultipartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C13B2506CC2700326E84 /* MultipartModel.swift */; };
+		B8F3C13F2506CD9B00326E84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C13E2506CD9B00326E84 /* User.swift */; };
+		B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1402506CDC300326E84 /* UserModel.swift */; };
+		B8F3C1452506D42600326E84 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1442506D42600326E84 /* UIButton.swift */; };
+		B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1462506D5EF00326E84 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
 		B8F3C1302506B81E00326E84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B8F3C1322506B82900326E84 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		B8F3C1352506CBF600326E84 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B8F3C1372506CC0400326E84 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		B8F3C1392506CC1000326E84 /* TokenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAdapter.swift; sourceTree = "<group>"; };
+		B8F3C13B2506CC2700326E84 /* MultipartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartModel.swift; sourceTree = "<group>"; };
+		B8F3C13E2506CD9B00326E84 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B8F3C1402506CDC300326E84 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B8F3C1442506D42600326E84 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B8F3C1462506D5EF00326E84 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,9 @@
 		B83EFBCD2506ADDE00A03A18 /* socio-infonavit-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B8F3C1422506D40600326E84 /* Helper */,
+				B8F3C13D2506CD7E00326E84 /* Models */,
+				B8F3C1342506CBD900326E84 /* Api */,
 				B83EFBE72506B6CA00A03A18 /* View+Controller */,
 				B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */,
 				B83EFBD72506ADE300A03A18 /* Assets.xcassets */,
@@ -100,6 +119,43 @@
 				B8F3C1322506B82900326E84 /* LoginVC.xib */,
 			);
 			path = "View+Controller";
+			sourceTree = "<group>";
+		};
+		B8F3C1342506CBD900326E84 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1352506CBF600326E84 /* APIManager.swift */,
+				B8F3C1372506CC0400326E84 /* ResponseError.swift */,
+				B8F3C1392506CC1000326E84 /* TokenAdapter.swift */,
+				B8F3C13B2506CC2700326E84 /* MultipartModel.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8F3C13D2506CD7E00326E84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C13E2506CD9B00326E84 /* User.swift */,
+				B8F3C1402506CDC300326E84 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8F3C1422506D40600326E84 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1432506D41A00326E84 /* Extensions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B8F3C1432506D41A00326E84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1442506D42600326E84 /* UIButton.swift */,
+				B8F3C1462506D5EF00326E84 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +274,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */,
 				B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */,
+				B8F3C1382506CC0400326E84 /* ResponseError.swift in Sources */,
+				B8F3C13A2506CC1000326E84 /* TokenAdapter.swift in Sources */,
+				B8F3C13F2506CD9B00326E84 /* User.swift in Sources */,
+				B8F3C1452506D42600326E84 /* UIButton.swift in Sources */,
+				B8F3C13C2506CC2700326E84 /* MultipartModel.swift in Sources */,
+				B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */,
 				B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */,
+				B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */,
 				B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
