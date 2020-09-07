@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginMenuVC.swift
 //  socio-infonavit-ios
 //
 //  Created by Pedro Antonio Góngora Sepúlveda on 07/09/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LoginVC: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
-
-
 }
-

@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05382BDD0E46A7E0A1987E0E /* Pods_socio_infonavit_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */; };
 		B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */; };
-		B83EFBD12506ADDE00A03A18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBD02506ADDE00A03A18 /* SceneDelegate.swift */; };
-		B83EFBD32506ADDE00A03A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBD22506ADDE00A03A18 /* ViewController.swift */; };
-		B83EFBD62506ADDE00A03A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD42506ADDE00A03A18 /* Main.storyboard */; };
+		B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */; };
 		B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD72506ADE300A03A18 /* Assets.xcassets */; };
 		B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */; };
+		B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */; };
+		B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1302506B81E00326E84 /* LoginVC.swift */; };
+		B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C1322506B82900326E84 /* LoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socio-infonavit-ios.release.xcconfig"; path = "Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios.release.xcconfig"; sourceTree = "<group>"; };
+		30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socio-infonavit-ios.debug.xcconfig"; path = "Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socio_infonavit_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83EFBCB2506ADDE00A03A18 /* socio-infonavit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socio-infonavit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B83EFBD02506ADDE00A03A18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B83EFBD22506ADDE00A03A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B83EFBD52506ADDE00A03A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		B83EFBD72506ADE300A03A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83EFBDA2506ADE300A03A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83EFBDC2506ADE300A03A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
+		B8F3C1302506B81E00326E84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B8F3C1322506B82900326E84 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05382BDD0E46A7E0A1987E0E /* Pods_socio_infonavit_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D86F5014A7FB0520CFDA935 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9335E20481C1ACCD01A39D4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */,
+				0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B83EFBC22506ADDE00A03A18 = {
 			isa = PBXGroup;
 			children = (
 				B83EFBCD2506ADDE00A03A18 /* socio-infonavit-ios */,
 				B83EFBCC2506ADDE00A03A18 /* Products */,
+				9335E20481C1ACCD01A39D4B /* Pods */,
+				0D86F5014A7FB0520CFDA935 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,24 @@
 		B83EFBCD2506ADDE00A03A18 /* socio-infonavit-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B83EFBE72506B6CA00A03A18 /* View+Controller */,
 				B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */,
-				B83EFBD02506ADDE00A03A18 /* SceneDelegate.swift */,
-				B83EFBD22506ADDE00A03A18 /* ViewController.swift */,
-				B83EFBD42506ADDE00A03A18 /* Main.storyboard */,
 				B83EFBD72506ADE300A03A18 /* Assets.xcassets */,
 				B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */,
 				B83EFBDC2506ADE300A03A18 /* Info.plist */,
 			);
 			path = "socio-infonavit-ios";
+			sourceTree = "<group>";
+		};
+		B83EFBE72506B6CA00A03A18 /* View+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */,
+				B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */,
+				B8F3C1302506B81E00326E84 /* LoginVC.swift */,
+				B8F3C1322506B82900326E84 /* LoginVC.xib */,
+			);
+			path = "View+Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B83EFBDF2506ADE300A03A18 /* Build configuration list for PBXNativeTarget "socio-infonavit-ios" */;
 			buildPhases = (
+				D3C135E0A77F698F06493246 /* [CP] Check Pods Manifest.lock */,
 				B83EFBC72506ADDE00A03A18 /* Sources */,
 				B83EFBC82506ADDE00A03A18 /* Frameworks */,
 				B83EFBC92506ADDE00A03A18 /* Resources */,
+				022D5DBFBFE06F43018E0194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +162,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */,
 				B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */,
 				B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */,
-				B83EFBD62506ADDE00A03A18 /* Main.storyboard in Resources */,
+				B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022D5DBFBFE06F43018E0194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C135E0A77F698F06493246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-socio-infonavit-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B83EFBC72506ADDE00A03A18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83EFBD32506ADDE00A03A18 /* ViewController.swift in Sources */,
+				B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */,
+				B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */,
 				B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */,
-				B83EFBD12506ADDE00A03A18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B83EFBD42506ADDE00A03A18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B83EFBD52506ADDE00A03A18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +354,13 @@
 		};
 		B83EFBE02506ADE300A03A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RPW8YD6T7;
 				INFOPLIST_FILE = "socio-infonavit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +374,13 @@
 		};
 		B83EFBE12506ADE300A03A18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RPW8YD6T7;
 				INFOPLIST_FILE = "socio-infonavit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
