@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05382BDD0E46A7E0A1987E0E /* Pods_socio_infonavit_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */; };
+		B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */; };
+		B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */; };
+		B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD72506ADE300A03A18 /* Assets.xcassets */; };
+		B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */; };
+		B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */; };
+		B8A46FAD2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */; };
+		B8A46FAF2507DCBD0038ED1E /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */; };
+		B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CDCDAC250708A900DF3E6F /* UIImage.swift */; };
+		B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1302506B81E00326E84 /* LoginVC.swift */; };
+		B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C1322506B82900326E84 /* LoginVC.xib */; };
+		B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1352506CBF600326E84 /* APIManager.swift */; };
+		B8F3C1382506CC0400326E84 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1372506CC0400326E84 /* ResponseError.swift */; };
+		B8F3C13A2506CC1000326E84 /* TokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1392506CC1000326E84 /* TokenAdapter.swift */; };
+		B8F3C13C2506CC2700326E84 /* MultipartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C13B2506CC2700326E84 /* MultipartModel.swift */; };
+		B8F3C13F2506CD9B00326E84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C13E2506CD9B00326E84 /* User.swift */; };
+		B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1402506CDC300326E84 /* UserModel.swift */; };
+		B8F3C1452506D42600326E84 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1442506D42600326E84 /* UIButton.swift */; };
+		B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1462506D5EF00326E84 /* UIColor.swift */; };
+		B8F3C1492506E03A00326E84 /* BenevitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1482506E03A00326E84 /* BenevitsVC.swift */; };
+		B8F3C14D2506E11300326E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C14C2506E11300326E84 /* Main.storyboard */; };
+		B8F3C1512506E27A00326E84 /* Benevit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1502506E27A00326E84 /* Benevit.swift */; };
+		B8F3C1532506E28300326E84 /* WalletResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1522506E28300326E84 /* WalletResponse.swift */; };
+		B8F3C1552506E3C500326E84 /* BenevitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1542506E3C500326E84 /* BenevitResponse.swift */; };
+		B8F3C1572506E87B00326E84 /* BenevitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */; };
+		B8F3C1592506EC8B00326E84 /* WalletListTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */; };
+		B8F3C15B2506F0A700326E84 /* WalletListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socio-infonavit-ios.release.xcconfig"; path = "Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios.release.xcconfig"; sourceTree = "<group>"; };
+		30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socio-infonavit-ios.debug.xcconfig"; path = "Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socio_infonavit_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83EFBCB2506ADDE00A03A18 /* socio-infonavit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socio-infonavit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		B83EFBD72506ADE300A03A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B83EFBDA2506ADE300A03A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B83EFBDC2506ADE300A03A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
+		B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitLockedCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerVC.swift; sourceTree = "<group>"; };
+		B8CDCDAC250708A900DF3E6F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B8F3C1302506B81E00326E84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B8F3C1322506B82900326E84 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		B8F3C1352506CBF600326E84 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B8F3C1372506CC0400326E84 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		B8F3C1392506CC1000326E84 /* TokenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAdapter.swift; sourceTree = "<group>"; };
+		B8F3C13B2506CC2700326E84 /* MultipartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartModel.swift; sourceTree = "<group>"; };
+		B8F3C13E2506CD9B00326E84 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B8F3C1402506CDC300326E84 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B8F3C1442506D42600326E84 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B8F3C1462506D5EF00326E84 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B8F3C1482506E03A00326E84 /* BenevitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitsVC.swift; sourceTree = "<group>"; };
+		B8F3C14C2506E11300326E84 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8F3C1502506E27A00326E84 /* Benevit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benevit.swift; sourceTree = "<group>"; };
+		B8F3C1522506E28300326E84 /* WalletResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletResponse.swift; sourceTree = "<group>"; };
+		B8F3C1542506E3C500326E84 /* BenevitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitResponse.swift; sourceTree = "<group>"; };
+		B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletListTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83EFBC82506ADDE00A03A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05382BDD0E46A7E0A1987E0E /* Pods_socio_infonavit_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D86F5014A7FB0520CFDA935 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2FC2AFABB4B5E928BEC31 /* Pods_socio_infonavit_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9335E20481C1ACCD01A39D4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */,
+				0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B83EFBC22506ADDE00A03A18 = {
+			isa = PBXGroup;
+			children = (
+				B83EFBCD2506ADDE00A03A18 /* socio-infonavit-ios */,
+				B83EFBCC2506ADDE00A03A18 /* Products */,
+				9335E20481C1ACCD01A39D4B /* Pods */,
+				0D86F5014A7FB0520CFDA935 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B83EFBCC2506ADDE00A03A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83EFBCB2506ADDE00A03A18 /* socio-infonavit-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83EFBCD2506ADDE00A03A18 /* socio-infonavit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1422506D40600326E84 /* Helper */,
+				B8F3C13D2506CD7E00326E84 /* Models */,
+				B8F3C1342506CBD900326E84 /* Api */,
+				B83EFBE72506B6CA00A03A18 /* View+Controller */,
+				B83EFBCE2506ADDE00A03A18 /* AppDelegate.swift */,
+				B83EFBD72506ADE300A03A18 /* Assets.xcassets */,
+				B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */,
+				B83EFBDC2506ADE300A03A18 /* Info.plist */,
+			);
+			path = "socio-infonavit-ios";
+			sourceTree = "<group>";
+		};
+		B83EFBE72506B6CA00A03A18 /* View+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B83EFBD22506ADDE00A03A18 /* SplashScreenVC.swift */,
+				B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */,
+				B8F3C1302506B81E00326E84 /* LoginVC.swift */,
+				B8F3C1322506B82900326E84 /* LoginVC.xib */,
+				B8F3C1482506E03A00326E84 /* BenevitsVC.swift */,
+				B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */,
+				B8F3C14C2506E11300326E84 /* Main.storyboard */,
+				B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */,
+				B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */,
+				B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */,
+				B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */,
+			);
+			path = "View+Controller";
+			sourceTree = "<group>";
+		};
+		B8F3C1342506CBD900326E84 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1352506CBF600326E84 /* APIManager.swift */,
+				B8F3C1372506CC0400326E84 /* ResponseError.swift */,
+				B8F3C1392506CC1000326E84 /* TokenAdapter.swift */,
+				B8F3C13B2506CC2700326E84 /* MultipartModel.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8F3C13D2506CD7E00326E84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C14F2506E26A00326E84 /* Benevit */,
+				B8F3C14E2506E26100326E84 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8F3C1422506D40600326E84 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1432506D41A00326E84 /* Extensions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B8F3C1432506D41A00326E84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1442506D42600326E84 /* UIButton.swift */,
+				B8F3C1462506D5EF00326E84 /* UIColor.swift */,
+				B8CDCDAC250708A900DF3E6F /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8F3C14E2506E26100326E84 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C13E2506CD9B00326E84 /* User.swift */,
+				B8F3C1402506CDC300326E84 /* UserModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B8F3C14F2506E26A00326E84 /* Benevit */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1502506E27A00326E84 /* Benevit.swift */,
+				B8F3C1522506E28300326E84 /* WalletResponse.swift */,
+				B8F3C1542506E3C500326E84 /* BenevitResponse.swift */,
+			);
+			path = Benevit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83EFBCA2506ADDE00A03A18 /* socio-infonavit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83EFBDF2506ADE300A03A18 /* Build configuration list for PBXNativeTarget "socio-infonavit-ios" */;
+			buildPhases = (
+				D3C135E0A77F698F06493246 /* [CP] Check Pods Manifest.lock */,
+				B83EFBC72506ADDE00A03A18 /* Sources */,
+				B83EFBC82506ADDE00A03A18 /* Frameworks */,
+				B83EFBC92506ADDE00A03A18 /* Resources */,
+				022D5DBFBFE06F43018E0194 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "socio-infonavit-ios";
+			productName = "socio-infonavit-ios";
+			productReference = B83EFBCB2506ADDE00A03A18 /* socio-infonavit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83EFBC32506ADDE00A03A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Nextia;
+				TargetAttributes = {
+					B83EFBCA2506ADDE00A03A18 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = B83EFBC62506ADDE00A03A18 /* Build configuration list for PBXProject "socio-infonavit-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B83EFBC22506ADDE00A03A18;
+			productRefGroup = B83EFBCC2506ADDE00A03A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83EFBCA2506ADDE00A03A18 /* socio-infonavit-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83EFBC92506ADDE00A03A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */,
+				B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */,
+				B8F3C14D2506E11300326E84 /* Main.storyboard in Resources */,
+				B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */,
+				B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022D5DBFBFE06F43018E0194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-socio-infonavit-ios/Pods-socio-infonavit-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C135E0A77F698F06493246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-socio-infonavit-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83EFBC72506ADDE00A03A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F3C1492506E03A00326E84 /* BenevitsVC.swift in Sources */,
+				B8F3C15B2506F0A700326E84 /* WalletListTableViewCell.swift in Sources */,
+				B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */,
+				B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */,
+				B8F3C1382506CC0400326E84 /* ResponseError.swift in Sources */,
+				B8F3C1592506EC8B00326E84 /* WalletListTableViewHeaderCell.swift in Sources */,
+				B8A46FAD2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift in Sources */,
+				B8F3C1512506E27A00326E84 /* Benevit.swift in Sources */,
+				B8F3C13A2506CC1000326E84 /* TokenAdapter.swift in Sources */,
+				B8F3C13F2506CD9B00326E84 /* User.swift in Sources */,
+				B8F3C1572506E87B00326E84 /* BenevitCollectionViewCell.swift in Sources */,
+				B8F3C1452506D42600326E84 /* UIButton.swift in Sources */,
+				B8F3C13C2506CC2700326E84 /* MultipartModel.swift in Sources */,
+				B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */,
+				B8F3C1532506E28300326E84 /* WalletResponse.swift in Sources */,
+				B8F3C1552506E3C500326E84 /* BenevitResponse.swift in Sources */,
+				B8A46FAF2507DCBD0038ED1E /* DrawerVC.swift in Sources */,
+				B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */,
+				B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */,
+				B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */,
+				B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83EFBDA2506ADE300A03A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83EFBDD2506ADE300A03A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B83EFBDE2506ADE300A03A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83EFBE02506ADE300A03A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B344F652077CBC52212E03 /* Pods-socio-infonavit-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RPW8YD6T7;
+				INFOPLIST_FILE = "socio-infonavit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nextia.com.socio-infonavit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B83EFBE12506ADE300A03A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEF9D672278C1DB62968957 /* Pods-socio-infonavit-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RPW8YD6T7;
+				INFOPLIST_FILE = "socio-infonavit-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nextia.com.socio-infonavit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83EFBC62506ADDE00A03A18 /* Build configuration list for PBXProject "socio-infonavit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83EFBDD2506ADE300A03A18 /* Debug */,
+				B83EFBDE2506ADE300A03A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83EFBDF2506ADE300A03A18 /* Build configuration list for PBXNativeTarget "socio-infonavit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83EFBE02506ADE300A03A18 /* Debug */,
+				B83EFBE12506ADE300A03A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B83EFBC32506ADDE00A03A18 /* Project object */;
+}
