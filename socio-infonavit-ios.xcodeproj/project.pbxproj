@@ -13,6 +13,8 @@
 		B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD72506ADE300A03A18 /* Assets.xcassets */; };
 		B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */; };
 		B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */; };
+		B8A46FAD2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */; };
+		B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CDCDAC250708A900DF3E6F /* UIImage.swift */; };
 		B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1302506B81E00326E84 /* LoginVC.swift */; };
 		B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C1322506B82900326E84 /* LoginVC.xib */; };
 		B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1352506CBF600326E84 /* APIManager.swift */; };
@@ -23,6 +25,14 @@
 		B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1402506CDC300326E84 /* UserModel.swift */; };
 		B8F3C1452506D42600326E84 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1442506D42600326E84 /* UIButton.swift */; };
 		B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1462506D5EF00326E84 /* UIColor.swift */; };
+		B8F3C1492506E03A00326E84 /* BenevitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1482506E03A00326E84 /* BenevitsVC.swift */; };
+		B8F3C14D2506E11300326E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C14C2506E11300326E84 /* Main.storyboard */; };
+		B8F3C1512506E27A00326E84 /* Benevit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1502506E27A00326E84 /* Benevit.swift */; };
+		B8F3C1532506E28300326E84 /* WalletResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1522506E28300326E84 /* WalletResponse.swift */; };
+		B8F3C1552506E3C500326E84 /* BenevitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1542506E3C500326E84 /* BenevitResponse.swift */; };
+		B8F3C1572506E87B00326E84 /* BenevitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */; };
+		B8F3C1592506EC8B00326E84 /* WalletListTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */; };
+		B8F3C15B2506F0A700326E84 /* WalletListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,8 @@
 		B83EFBDA2506ADE300A03A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83EFBDC2506ADE300A03A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
+		B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitLockedCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8CDCDAC250708A900DF3E6F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		B8F3C1302506B81E00326E84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B8F3C1322506B82900326E84 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		B8F3C1352506CBF600326E84 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -46,6 +58,14 @@
 		B8F3C1402506CDC300326E84 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B8F3C1442506D42600326E84 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		B8F3C1462506D5EF00326E84 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B8F3C1482506E03A00326E84 /* BenevitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitsVC.swift; sourceTree = "<group>"; };
+		B8F3C14C2506E11300326E84 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8F3C1502506E27A00326E84 /* Benevit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benevit.swift; sourceTree = "<group>"; };
+		B8F3C1522506E28300326E84 /* WalletResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletResponse.swift; sourceTree = "<group>"; };
+		B8F3C1542506E3C500326E84 /* BenevitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitResponse.swift; sourceTree = "<group>"; };
+		B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletListTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +137,12 @@
 				B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */,
 				B8F3C1302506B81E00326E84 /* LoginVC.swift */,
 				B8F3C1322506B82900326E84 /* LoginVC.xib */,
+				B8F3C1482506E03A00326E84 /* BenevitsVC.swift */,
+				B8F3C14C2506E11300326E84 /* Main.storyboard */,
+				B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */,
+				B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */,
+				B8F3C1562506E87B00326E84 /* BenevitCollectionViewCell.swift */,
+				B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */,
 			);
 			path = "View+Controller";
 			sourceTree = "<group>";
@@ -135,8 +161,8 @@
 		B8F3C13D2506CD7E00326E84 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B8F3C13E2506CD9B00326E84 /* User.swift */,
-				B8F3C1402506CDC300326E84 /* UserModel.swift */,
+				B8F3C14F2506E26A00326E84 /* Benevit */,
+				B8F3C14E2506E26100326E84 /* User */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,8 +180,28 @@
 			children = (
 				B8F3C1442506D42600326E84 /* UIButton.swift */,
 				B8F3C1462506D5EF00326E84 /* UIColor.swift */,
+				B8CDCDAC250708A900DF3E6F /* UIImage.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8F3C14E2506E26100326E84 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C13E2506CD9B00326E84 /* User.swift */,
+				B8F3C1402506CDC300326E84 /* UserModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B8F3C14F2506E26A00326E84 /* Benevit */ = {
+			isa = PBXGroup;
+			children = (
+				B8F3C1502506E27A00326E84 /* Benevit.swift */,
+				B8F3C1522506E28300326E84 /* WalletResponse.swift */,
+				B8F3C1542506E3C500326E84 /* BenevitResponse.swift */,
+			);
+			path = Benevit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +266,7 @@
 			files = (
 				B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */,
 				B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */,
+				B8F3C14D2506E11300326E84 /* Main.storyboard in Resources */,
 				B83EFBD82506ADE300A03A18 /* Assets.xcassets in Resources */,
 				B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */,
 			);
@@ -274,15 +321,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F3C1492506E03A00326E84 /* BenevitsVC.swift in Sources */,
+				B8F3C15B2506F0A700326E84 /* WalletListTableViewCell.swift in Sources */,
 				B8F3C1362506CBF600326E84 /* APIManager.swift in Sources */,
 				B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */,
 				B8F3C1382506CC0400326E84 /* ResponseError.swift in Sources */,
+				B8F3C1592506EC8B00326E84 /* WalletListTableViewHeaderCell.swift in Sources */,
+				B8A46FAD2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift in Sources */,
+				B8F3C1512506E27A00326E84 /* Benevit.swift in Sources */,
 				B8F3C13A2506CC1000326E84 /* TokenAdapter.swift in Sources */,
 				B8F3C13F2506CD9B00326E84 /* User.swift in Sources */,
+				B8F3C1572506E87B00326E84 /* BenevitCollectionViewCell.swift in Sources */,
 				B8F3C1452506D42600326E84 /* UIButton.swift in Sources */,
 				B8F3C13C2506CC2700326E84 /* MultipartModel.swift in Sources */,
 				B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */,
+				B8F3C1532506E28300326E84 /* WalletResponse.swift in Sources */,
+				B8F3C1552506E3C500326E84 /* BenevitResponse.swift in Sources */,
 				B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */,
+				B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */,
 				B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */,
 				B83EFBCF2506ADDE00A03A18 /* AppDelegate.swift in Sources */,
 			);

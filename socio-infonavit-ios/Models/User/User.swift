@@ -58,10 +58,14 @@ extension User {
     
     static func login(with email: String, and password: String, completion: @escaping (Swift.Result<UserResponse, APIError>) -> Void) {
         
-        let parameters: Parameters = [
+        let user: Parameters = [
             "email": email,
             "password": password
         ]
+        let parameters: Parameters = [
+            "user": user
+        ]
+        
         
         APIManager.shared.request(urlRequest: UserRouter.login(parameters: parameters)) { (result: Swift.Result<UserResponse, APIError>) in
             switch result {

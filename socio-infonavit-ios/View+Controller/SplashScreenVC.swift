@@ -24,7 +24,12 @@ class SplashScreenVC: UIViewController {
         }) { (finished) in
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 SVProgressHUD.dismiss()
-                AppDelegate.standard.window?.rootViewController = LoginVC()
+                if AppDelegate.isLoggedIn {
+                    let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BenevitsVC") as UIViewController
+                    AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: vc)
+                } else {
+                    AppDelegate.standard.window?.rootViewController = LoginVC()
+                }
             }
         }
     }

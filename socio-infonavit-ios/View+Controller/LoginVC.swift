@@ -25,11 +25,14 @@ class LoginVC: UIViewController {
                 
             // Got Succesful response
             case .success((let userResponse)):
-                let alert: UIAlertController
-                alert = UIAlertController(title: "Success", message: "logged In", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "Ok", style: .cancel))
-                self.present(alert, animated: true)
                 
+                // login
+                AppDelegate.login(with: userResponse)
+                
+                // go to main vc
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BenevitsVC") as UIViewController
+                AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: vc)
+
             // Show error
             case .failure( _):
                 let alert: UIAlertController

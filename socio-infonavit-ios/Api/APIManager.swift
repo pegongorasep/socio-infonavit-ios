@@ -45,7 +45,7 @@ public class APIManager {
     
     private init() {}
     
-    public func request<T: Codable>(urlRequest: APIConfiguration, completion: @escaping (Swift.Result<T, APIError> ) -> Void) {
+    public func request<T: Codable>(urlRequest: APIConfiguration, completion: @escaping (Swift.Result<T, APIError> ) -> Void) {        
         sessionManager.request(urlRequest)
             .validate()
             .responseData { [weak self] (response) in
@@ -53,6 +53,12 @@ public class APIManager {
                 #if DEBUG
                 self.printLogs(response)
                 #endif
+                
+                if let token = response.response?.allHeaderFields["Authorization"] as? String {
+                    AppDelegate.saveToken(token: token)
+                    print(token)
+                }
+                
                 switch response.result {
                 case .success(let value):
                     guard value.count > 0 else {
