@@ -20,6 +20,8 @@ var window:UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        UINavigationBar.appearance().tintColor = UIColor.white
+
         SVProgressHUD.setBackgroundColor(.clear)
         
         window?.rootViewController = SplashScreenVC()
@@ -33,14 +35,14 @@ var window:UIWindow?
     static func login(with user: UserResponse) {
         AppDelegate.user = user
         AppDelegate.isLoggedIn = true
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BenevitsVC") as UIViewController
-        AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: vc)
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "drawerController") as UIViewController
+        AppDelegate.standard.window?.rootViewController = vc
     }
     
     static func logOut() {
         AppDelegate.user = nil
         AppDelegate.isLoggedIn = false
-        AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: LoginVC())
+        AppDelegate.standard.window?.rootViewController = LoginVC()
     }
     
     static func saveToken(token: String) {

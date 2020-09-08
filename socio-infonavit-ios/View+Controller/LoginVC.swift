@@ -28,10 +28,6 @@ class LoginVC: UIViewController {
                 
                 // login
                 AppDelegate.login(with: userResponse)
-                
-                // go to main vc
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BenevitsVC") as UIViewController
-                AppDelegate.standard.window?.rootViewController = UINavigationController(rootViewController: vc)
 
             // Show error
             case .failure( _):

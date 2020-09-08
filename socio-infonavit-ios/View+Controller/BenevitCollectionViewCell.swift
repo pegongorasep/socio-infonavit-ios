@@ -31,7 +31,7 @@ class BenevitCollectionViewCell: UICollectionViewCell {
         }
         
         backgroundColorView.backgroundColor = UIColor(hexString: item.primaryColor!)
-        titleLabel.text = item.title
+        titleLabel.text = item.title! + "\n\n\n\n"
         
         if let territories = item.territories {
             if territories.count > 0 {
@@ -42,7 +42,7 @@ class BenevitCollectionViewCell: UICollectionViewCell {
         if let expirationDate = item.expirationDate {
             let startDate = Date()
             let formatter = DateFormatter()
-            formatter.dateFormat = "dd-MM-yyyy"
+            formatter.dateFormat = "yyyy-MM-dd"
 
             if let endDate = formatter.date(from: expirationDate) {
                 let components = Calendar.current.dateComponents([.day], from: startDate, to: endDate)

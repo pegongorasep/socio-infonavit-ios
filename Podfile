@@ -8,5 +8,6 @@ target 'socio-infonavit-ios' do
   # Pods for SocioInfonavitiOS
   pod 'SVProgressHUD'
   pod 'Alamofire', '~> 5.2.2'
+  pod 'KYDrawerController'
 
 end

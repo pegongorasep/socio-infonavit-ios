@@ -14,6 +14,7 @@
 		B83EFBDB2506ADE300A03A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBD92506ADE300A03A18 /* LaunchScreen.storyboard */; };
 		B83EFBE52506B6B000A03A18 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */; };
 		B8A46FAD2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */; };
+		B8A46FAF2507DCBD0038ED1E /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */; };
 		B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CDCDAC250708A900DF3E6F /* UIImage.swift */; };
 		B8F3C1312506B81E00326E84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F3C1302506B81E00326E84 /* LoginVC.swift */; };
 		B8F3C1332506B82900326E84 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F3C1322506B82900326E84 /* LoginVC.xib */; };
@@ -47,6 +48,7 @@
 		B83EFBDC2506ADE300A03A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83EFBE42506B6B000A03A18 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
 		B8A46FAC2507D0350038ED1E /* BenevitLockedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitLockedCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerVC.swift; sourceTree = "<group>"; };
 		B8CDCDAC250708A900DF3E6F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		B8F3C1302506B81E00326E84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B8F3C1322506B82900326E84 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				B8F3C1302506B81E00326E84 /* LoginVC.swift */,
 				B8F3C1322506B82900326E84 /* LoginVC.xib */,
 				B8F3C1482506E03A00326E84 /* BenevitsVC.swift */,
+				B8A46FAE2507DCBD0038ED1E /* DrawerVC.swift */,
 				B8F3C14C2506E11300326E84 /* Main.storyboard */,
 				B8F3C1582506EC8B00326E84 /* WalletListTableViewHeaderCell.swift */,
 				B8F3C15A2506F0A700326E84 /* WalletListTableViewCell.swift */,
@@ -337,6 +340,7 @@
 				B8F3C1472506D5EF00326E84 /* UIColor.swift in Sources */,
 				B8F3C1532506E28300326E84 /* WalletResponse.swift in Sources */,
 				B8F3C1552506E3C500326E84 /* BenevitResponse.swift in Sources */,
+				B8A46FAF2507DCBD0038ED1E /* DrawerVC.swift in Sources */,
 				B83EFBD32506ADDE00A03A18 /* SplashScreenVC.swift in Sources */,
 				B8CDCDAD250708A900DF3E6F /* UIImage.swift in Sources */,
 				B8F3C1412506CDC300326E84 /* UserModel.swift in Sources */,

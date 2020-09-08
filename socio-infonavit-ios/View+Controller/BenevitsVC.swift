@@ -8,17 +8,27 @@
 
 import UIKit
 import SVProgressHUD
+import KYDrawerController
 
 class BenevitsVC: UIViewController {        
     var collection = [([BenevitModel]?, String?)]()
     var storedOffsets = [Int: CGFloat]()
-        
+    
+    @IBOutlet weak var loadingBenevitsImage: UIImageView!
     @IBOutlet weak var walletsTableView: UITableView!
     private let walletsTableViewRefreshControl = UIRefreshControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        let leftBarButton = UIBarButtonItem(image: UIImage(named: "hamburguer_menu"), style: .plain, target: self, action: #selector(openDrawer))
+        self.navigationItem.leftBarButtonItem = leftBarButton
+        
+        let imageView = UIImageView(image: UIImage(named: "logo"))
+        imageView.contentMode = .scaleAspectFill
+        self.navigationItem.titleView = imageView
+        
         
         walletsTableView.dataSource = self
         walletsTableView.delegate = self
@@ -28,6 +38,12 @@ class BenevitsVC: UIViewController {
         walletsTableView.addSubview(walletsTableViewRefreshControl)
         
         getBenevits()
+    }
+    
+    @objc func openDrawer() {
+        if let drawerController = parent?.parent as? KYDrawerController {
+            drawerController.setDrawerState(KYDrawerController.DrawerState.opened, animated: true)
+        }
     }
     
     @objc func getBenevits() {
@@ -89,6 +105,7 @@ class BenevitsVC: UIViewController {
                         
                         // refresh ui
                         self.walletsTableView.reloadData()
+                        self.loadingBenevitsImage.isHidden = true
                         SVProgressHUD.dismiss()
                         
                         
@@ -124,7 +141,7 @@ extension BenevitsVC: UITableViewDataSource, UITableViewDelegate {
             return CGFloat(300.0)
             
         } else {
-            return CGFloat(45.0)
+            return CGFloat(50.0)
         }
     }
     

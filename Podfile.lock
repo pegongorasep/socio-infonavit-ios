@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (5.2.2)
+  - KYDrawerController (2.1.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2.2)
+  - KYDrawerController
   - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - KYDrawerController
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 855cedbf5cf3f8539bf480dac247cb51dc65d40c
+PODFILE CHECKSUM: 9d4e4a023de82ae0e986447cc2b3ea7107defdaf
 
 COCOAPODS: 1.9.1
